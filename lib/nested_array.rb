@@ -59,8 +59,7 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
-  sorted_matrix = assembled_matrix[1, 2].sort
-  sorted_matrix
+  sorted_assembled_matrix = assembled_matrix.sort
 end
 
 def matrix_lookup(matrix, row, column)
