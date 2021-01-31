@@ -60,6 +60,7 @@ def sorted_matrix
     ]
   ]
   assembled_matrix_sort = assembled_matrix[conventional.sort, organic.sort]
+  assembled_matrix_sort
 
 end
 
