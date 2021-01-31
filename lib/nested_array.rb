@@ -56,6 +56,7 @@ def sorted_matrix
     ]
   ]
   conventional.sort
+  organic.sort
 
 end
 
