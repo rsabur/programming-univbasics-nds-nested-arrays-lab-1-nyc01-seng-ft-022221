@@ -59,7 +59,7 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
-  sorted_matrix == assembled_matrix[1, 2].sort
+  sorted_matrix = assembled_matrix[1, 2].sort
   sorted_matrix
 end
 
