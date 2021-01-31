@@ -59,9 +59,7 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
-  sorted_matrix = [assembled_matrix[[conventional.sort],[organic.sort]]]
-  sorted_matrix
-
+  sorted_matrix = assembled_matrix.sort
 end
 
 def matrix_lookup(matrix, row, column)
