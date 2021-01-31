@@ -59,8 +59,8 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
-  assembled_matrix_sort = assembled_matrix[[conventional.sort],[organic.sort]]
-  assembled_matrix_sort
+  sorted_matrix = assembled_matrix[[conventional.sort],[organic.sort]]
+  sorted_matrix
 
 end
 
