@@ -59,6 +59,7 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
+  
   assembled_matrix.sort!
 end
 
