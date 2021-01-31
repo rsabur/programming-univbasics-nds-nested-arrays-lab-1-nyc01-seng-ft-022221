@@ -45,21 +45,21 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   assembled_matrix = [
     conventional = [
-      "Grapefruit",
-      "Pineapple",
-      "Oranges",
-      "Watermelon",
-      "Eggplant"
-    ],
+      ["Grapefruit"],
+      ["Pineapple"],
+      ["Oranges"],
+      ["Watermelon"],
+      ["Eggplant"]
+    ].sort,
     organic = [
       "Strawberries",
       "Potatoes",
       "Grapes",
       "Avocadoes",
       "Asparagus"
-    ]
+    ].sort
   ]
-  
+
   assembled_matrix.sort!
 end
 
