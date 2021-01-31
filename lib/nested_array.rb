@@ -55,9 +55,7 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
-  assembled_matrix[conventional.sort]
-  assembled_matrix[organic.sort]
-end
+  assembled_matrix.sort
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index,
