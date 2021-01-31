@@ -60,6 +60,7 @@ def sorted_matrix
     ]
   ]
   sorted_matrix == assembled_matrix[1, 2].sort
+  sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
