@@ -50,17 +50,15 @@ def sorted_matrix
       ["Oranges"],
       ["Watermelon"],
       ["Eggplant"]
-    ].sort,
+    ],
     organic = [
       "Strawberries",
       "Potatoes",
       "Grapes",
       "Avocadoes",
       "Asparagus"
-    ].sort
+    ]
   ]
-
-  assembled_matrix.sort!
 end
 
 def matrix_lookup(matrix, row, column)
