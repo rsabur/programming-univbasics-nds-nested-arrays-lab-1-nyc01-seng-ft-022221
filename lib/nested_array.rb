@@ -50,7 +50,7 @@ def sorted_matrix
       ["Oranges"],
       ["Watermelon"],
       ["Eggplant"]
-    ],
+    ].flatten.sort,
     organic = [
       "Strawberries",
       "Potatoes",
