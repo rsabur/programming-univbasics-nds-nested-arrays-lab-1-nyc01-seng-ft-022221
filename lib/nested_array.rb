@@ -44,14 +44,14 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   assembled_matrix = [
-    CONVENTIONAL_PRODUCE = [
+    conventional = [
       "Grapefruit",
       "Pineapple",
       "Oranges",
       "Watermelon",
       "Eggplant"
     ],
-    ORGANIC_PRODUCE = [
+    organic = [
       "Strawberries",
       "Potatoes",
       "Grapes",
@@ -59,7 +59,7 @@ def sorted_matrix
       "Asparagus"
     ]
   ]
-  sorted_matrix = assembled_matrix[[CONVENTIONAL_PRODUCE.sort],[ORGANIC_PRODUCE.sort]]
+  sorted_matrix = assembled_matrix[[conventional.sort],[organic.sort]]
   sorted_matrix
 
 end
